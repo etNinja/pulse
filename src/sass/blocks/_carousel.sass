@@ -11,10 +11,13 @@
         left: -66px
         position: absolute
         border: none
-        background-color: #fff
+        background-color: #fff        
         img
             width: 31px
             height: 50px
+            transition: 0.5s all
+            &:hover
+                rotate: 360deg
     .slick-next
         top: 50%
         transform: translateY(-50%)
@@ -25,4 +28,7 @@
         img
             width: 31px
             height: 50px
+            transition: 0.5s all
+            &:hover
+                rotate: -360deg
             
